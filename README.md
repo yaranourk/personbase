@@ -20,12 +20,12 @@ namespace ConsoleApp8
 
             {
                 car car1 = new car();
-                car1.carname = "persia";
+                car1.carname = "peykan";
                 car1.carspeed = "20000";
                 car1.carmodel = "96";
 
                 car car2 = new car();
-                car2.carname = "peg 206";
+                car2.carname = "pride";
                 car2.carspeed = "100";
                 car2.carmodel = "1400 \n ";
 
@@ -35,7 +35,7 @@ namespace ConsoleApp8
 
 
                 person person1 = new person("yara", "nourkhani", "20");
-                person person2 = new person("mani", "razi", "19");
+                person person2 = new person("moein", "heydari", "20");
 
 
                 Console.WriteLine($" name : {person1.name} \n familyname : {person1.familyname}  \n age : {person1.age} \n ");
@@ -66,10 +66,7 @@ namespace ConsoleApp8
         }
     }
 }
-using System;using System.Collections.Generic;
-using System.Linq;using System.Text;
-using System.Threading.Tasks;
-namespace ConsoleApp8{
+
     internal class car    {
         public string carname;        public string carspeed;
         public string carmodel;
