@@ -66,3 +66,11 @@ namespace ConsoleApp8
         }
     }
 }
+using System;using System.Collections.Generic;
+using System.Linq;using System.Text;
+using System.Threading.Tasks;
+namespace ConsoleApp8{
+    internal class car    {
+        public string carname;        public string carspeed;
+        public string carmodel;
+    }}
