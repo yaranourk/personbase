@@ -71,3 +71,31 @@ namespace ConsoleApp8
         public string carname;        public string carspeed;
         public string carmodel;
     }}
+
+
+
+
+
+
+
+    internal class personBase
+    {
+        public string name;
+        public string familyname;
+        public string age;
+
+        public personBase()
+        {
+        }
+
+        public personBase(string name, string familyname, string age)
+
+        {
+            this.name = name;
+            this.familyname = familyname;
+            this.age = age;
+
+        }
+    }
+}
+
